@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(159, 208, 159);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#pantop{
+    padding:0px 30%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: #fff;
+    background-color: rgb(60, 102, 60);
+    align-items: center;
+    justify-content: space-between;
+}
+.elem{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(30, 144, 51);
+}
+#panbtm{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(60, 102, 60);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight:500;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(38, 71, 38);
+}
+.resBtn{
+    position: absolute;
+    padding: 15px 10px;
+    font-size: x-large;
+    right: 40px;
+    bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(213, 245, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: rgb(38, 71, 38);
+}
+.resBtn:hover{
+    background-color: rgb(209, 229, 222);
+}
